@@ -1,5 +1,7 @@
 from datetime import date, timedelta
 
+BASE_URL = 'https://qa-scooter.praktikum-services.ru/'
+
 
 def d(days):
     return (date.today() + timedelta(days=days)).strftime("%d.%m.%Y")
